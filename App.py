@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen
-from newspaper import Article
+import newspaper
 import io
 import nltk
 nltk.download('punkt')
